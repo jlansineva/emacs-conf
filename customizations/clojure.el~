@@ -1,0 +1,3 @@
+(require 'flycheck-clj-kondo)
+
+(setq clojure-indent-style 'always-indent)

@@ -1,0 +1,94 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/jukkalansineva/.emacs.d/" . "customizations/")
+ ("/Users/jukkalansineva/h/harja/src/cljs/harja/" . "views/")
+ ("/Users/jukkalansineva/h/harja/src/cljs/" . "harja/")
+ ("/Users/jukkalansineva/h/harja/src/clj/harja/palvelin/" . "palvelut/")
+ ("/Users/jukkalansineva/h/harja/src/clj/harja/" . "palvelin/")
+ ("/Users/jukkalansineva/h/harja/src/clj/" . "harja/")
+ ("/Users/jukkalansineva/h/harja/src/" . "cljs/")
+ ("/Users/jukkalansineva/h/harja/" . "src/")
+ ("/Users/jukkalansineva/h/" . "harja/")
+ ("/Users/jukkalansineva/emacsdbkup/" . "customizations/")
+ ("/Users/jukkalansineva/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/jukkalansineva/.emacs.d/customizations/"
+ "/Users/jukkalansineva/emacsdbkup/customizations/"
+ "/Users/jukkalansineva/.emacs.d/"
+ "/Users/jukkalansineva/emacsdbkup/"
+ "/Users/jukkalansineva/h/harja/src/cljs/harja/views/"
+ "/Users/jukkalansineva/h/harja/src/cljs/harja/asiakas/"
+ "/Users/jukkalansineva/h/harja/src/clj/harja/palvelin/palvelut/"
+ "/Users/jukkalansineva/h/harja/"
+ "/Users/jukkalansineva/h/harja/src/clj/harja/palvelin/"
+ "/Users/jukkalansineva/h/harja/src/clj/harja/kyselyt/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "clojure.el"
+ "setup-clojure.el"
+ "navigation.el"
+ "elisp-editing.el"
+ "config.el"
+ "init.el"
+ "misc.el"
+ "shell-integration.el"
+ "editing.el"
+ "raportit.cljs"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/jukkalansineva/.emacs.d/customizations/" (25175 51205 575207 439000) "clojure.el" "clojure.el~" "config.el" "config.el~" "../" "./")
+
+ ("/Users/jukkalansineva/.emacs.d/" (25174 50962 681094 660000) "elpa/" "init.el" "auto-save-list/" "transient/" "ido.last~" "customizations/" "init.el~" "ido.last" "../" "./")
+
+ ("/Users/jukkalansineva/h/harja/src/cljc/" (23750 35732 749698 113000) "harja/" "../" "./")
+
+ ("/Users/jukkalansineva/h/harja/src/cljc/harja/" (25173 28088 976626 880000) "domain/" "kyselyt/" "pvm.cljc" "fmt.cljc" "transit.cljc" "tyokalut/" "visualisointi.cljc" "validointi.cljc" "geo.cljc" "ui/" "id.cljc" "../" "./")
+
+ ("/Users/jukkalansineva/h/harja/src/cljc/harja/domain/" (25174 50676 111334 436000) "paallystyksen_maksuerat.cljc" "nil.cljc" "pot2.cljc" "toimenpidekoodi.cljc" "toimenpideinstanssi.cljc" "hairioilmoitus.cljc" "puhelinnumero.cljc" "kayttaja.cljc" "kulut.cljc" "tieliikenneilmoitukset.cljc" "tielupa.cljc" "urakka.cljc" "kanavat/" "budjettisuunnittelu.cljc" "tiemerkinta.cljc" "vesivaylat/" "alueurakka_domain.cljc" ".#raportointi.cljc" "palvelut/" "aikataulu.cljc" "tienakyma.cljc" "hanke.cljc" "infopaneeli.cljc" "paikkaus.cljc" "tehtavaryhma.cljc" "oikeudet.cljc" "yllapitokohde.cljc" "kulut/" "liite.cljc" "raportointi.cljc" "paallystysilmoitus.cljc" "#raportointi.cljc#" "materiaali.cljc" "lupaus_domain.cljc" "tilannekuva/" "tiemerkinta_toteumat.cljc" "tietyoilmoituksen_email.cljc" "tierekisteri/" "tilannekuva.cljc" "toteuma.cljc" "geometriaaineistot.cljc" "ely.cljc" "turvallisuuspoikkeama.cljc" "hoitoluokat.cljc" "siltatarkastus.cljc" "valitavoite.cljc" "reittipiste.cljc" "sopimus.cljc" "organisaatio.cljc" "paallystys_ja_paikkaus.cljc" "muokkaustiedot.cljc" "sonja.cljc" "laadunseuranta.cljc" "tietyoilmoitus.cljc" "skeema.cljc" "urakan_tyotunnit.cljc" "mhu.cljc" "laadunseuranta/" "indeksit.cljc" "kommentti.cljc" "oikeudet/" "roolit.cljc" "yleiset.cljc" "../" "./")
+
+ ("/Users/jukkalansineva/h/harja/" (25174 49372 88771 237000) ".docker_compose_env" "src/" ".idea/" "roadmap-harja.png" "projectFilesBackup/" "tilannekuvakuormitin.js" "docker-compose-common.yml" "kaynnista_harja_front_dev.sh" ".circleci/" "sekalaista/" "asetukset.edn" "LICENSE.txt" ".git/" "Jenkins/" "figwheel_conf/" "karma.ci.conf.js" "tietokanta/" "docker-compose.yml" "svg-to-png.fish" "dev/" ".projectile" "select___from_kustannusarvioitu_tyo_wher.tsv" "karma.conf.js" "package.json" "package-lock.json" ".gitignore" ".dumbjump" "testi.pdf" "logs/" ".docker_compose_container_env" "sh/" ".lein-repl-history" "generoi_ikonit.clj" "README.md" "dev-resources/" "script/" ".harja_env" "harja.iml" "cookies.txt" "lsp/" ".nrepl-port" "profiles.clj" "node_modules/" "test_envs/" "resources/" ".rebel_readline_history" "target/" ".clj-kondo/" "dev.cljs.edn" "karma.ie.conf.js" "figwheel_server.log" "out/" "test/" "shp/" "kaynnista_cypress.sh" ".DS_Store" "cypress/" "cypress.json" "testiajo" "laadunseuranta/" "project.clj" "activemq/" ".lein-failures" "../" "./")
+
+ ("/Users/jukkalansineva/h/harja/src/cljs/harja/views/" (25140 22938 554421 74000) "urakat.cljs" "tieluvat/" "urakka/" "ilmoituskuittaukset.cljs" "kartta/" "ilmoituksen_tiedot.cljs" "kanavat/" "murupolku.cljs" "ilmoitukset/" "vesivaylat/" "hallinta.cljs" "hallinta/" "about.cljs" "tilannekuva/" "tierekisteri/" "about.clj" "tierekisteri.cljs" "raportit.cljs" "toimenpidekoodit.cljs" "urakka.cljs" "haku.cljs" "main.cljs" "kartta.cljs" "../" "./")
+
+ ("/Users/jukkalansineva/h/harja/src/cljs/harja/asiakas/" (25174 50574 48898 429000) "kommunikaatio.cljs" ".#kommunikaatio.cljs" "tapahtumat.cljs" "#kommunikaatio.cljs#" "main.cljs" "../" "./")
+
+ ("/Users/jukkalansineva/h/harja/src/cljs/harja/" (23973 25705 377753 364000) "views/" "asiakas/" "atom.cljs" "tiedot/" "virhekasittely.cljs" "makrot.clj" "tyokalut/" "atom.clj" "ui/" "../" "./")
+
+ ("/Users/jukkalansineva/h/harja/src/cljs/" (23750 35732 769607 465000) "harja/" "../" "./")
+
+ ("/Users/jukkalansineva/h/harja/src/clj/harja/palvelin/palvelut/" (25171 60613 323677 975000) "selainvirhe.clj" "debug.clj" "tieluvat.clj" "kulut.clj" "urakat.clj" "raportit.clj" "maksuerat.clj" "yllapito_toteumat.clj" "yha.clj" "lampotilat.clj" "yha_apurit.clj" "lupaus/" "viestinta.clj" "indeksit.clj" "muut_tyot.clj" "tehtavamaarat.clj" "karttakuvat.clj" "kiinteahintaiset_tyot.clj" "hankkeet.clj" "sopimukset.clj" "kayttajatiedot.clj" "varuste_ulkoiset.clj" "toimenpidekoodit.clj" "kanavat/" "valitavoitteet/" "kokonaishintaiset_tyot.clj" "vesivaylat/" "geometria_aineistot.clj" "toteumat_tarkistukset.clj" "yha_velho.clj" "valitavoitteet.clj" "urakoitsijat.clj" "hairioilmoitukset.clj" "kulut/" "tierekisteri_haku.clj" "haku.clj" "urakan_toimenpiteet.clj" "pois_kytketyt_ominaisuudet.clj" "api_jarjestelmatunnukset.clj" "kustannusarvioidut_tyot.clj" "yhteyshenkilot.clj" "ilmoitukset.clj" "urakan_tyotunnit.clj" "organisaatiot.clj" "yllapitokohteet.clj" "tilannekuva.clj" "jarjestelman_tila.clj" "laadunseuranta.clj" "liitteet.clj" "siltatarkastukset.clj" "budjettisuunnittelu.clj" "tienakyma.clj" "integraatioloki.clj" "toteumat.clj" "karttakuvat/" "interpolointi.clj" "hallintayksikot.clj" "ping.clj" "turvallisuuspoikkeamat.clj" "muokkauslukko.clj" "pohjavesialueet.clj" "yllapitokohteet/" "status.clj" "materiaalit.clj" "yksikkohintaiset_tyot.clj" "tietyoilmoitukset/" "laadunseuranta/" "tietyoilmoitukset.clj" "../" "./")
+
+ ("/Users/jukkalansineva/h/harja/src/clj/harja/palvelin/" (25156 18945 103763 802000) "ajastetut_tehtavat/" "integraatiot/" "raportointi/" "raportointi.clj" "main.clj" "index.clj" "palvelut/" "jarjestelma_rajapinta.clj" "lokitus/" "tyokalut/" "komponentit/" "asetukset.clj" "tapahtuma_protokollat.clj" "../" "./")
+
+ ("/Users/jukkalansineva/h/harja/src/clj/harja/kyselyt/" (25174 42242 858254 245000) "vemtr.sql" "geometriapaivitykset.sql" "geometriapaivitykset.clj" "vemtr.clj" "debug.sql" "reimari_meta.sql" "reimari_meta.clj" "debug.clj" "lukot.clj" "lukot.sql" "kulut.clj" "kulut.sql" "sillat.sql" "sillat.clj" "urakat.sql" "urakat.clj" "maksuerat.sql" "raportit.sql" "raportit.clj" "maksuerat.clj" "tapahtumat.sql" "tapahtumat.clj" "yha.sql" "yllapito_toteumat.sql" "yha.clj" "lampotilat.clj" "lampotilat.sql" "kustannusten_seuranta.sql" "kustannusten_seuranta.clj" "indeksit.sql" "indeksit.clj" "livitunnisteet.clj" "livitunnisteet.sql" "tyokoneseuranta.sql" "tyokoneseuranta.clj" "tehtavamaarat.sql" "tehtavamaarat.clj" "anti_csrf.sql" "paikkaus.sql" "tieliikenneilmoitukset.sql" "tieliikenneilmoitukset.clj" "paikkaus.clj" "anti_csrf.clj" "kiinteahintaiset_tyot.sql" "kiinteahintaiset_tyot.clj" "hankkeet.sql" "kommentit.sql" "kommentit.clj" "hankkeet.clj" "sopimukset.clj" "laskutusyhteenveto.clj" "laskutusyhteenveto.sql" "sopimukset.sql" "kustannussuunnitelmat.sql" "lupaus_kyselyt.sql" "kustannussuunnitelmat.clj" "lupaus_kyselyt.clj" "toimenpideinstanssit.sql" "toimenpideinstanssit.clj" "toimenpidekoodit.clj" "toimenpidekoodit.sql" "kanavat/" "kayttajat.clj" "kayttajat.sql" "koodistot.clj" "koodistot.sql" "paallystys_kyselyt.clj" "kokonaishintaiset_tyot.sql" "kokonaishintaiset_tyot.clj" "vesivaylat/" "vaylat.clj" "vaylat.sql" "kursori.clj" "valitavoitteet.sql" "valitavoitteet.clj" "tietyoilmoituksen_email.clj" "urakoitsijat.sql" "urakoitsijat.clj" "muutoshintaiset_tyot.clj" "muutoshintaiset_tyot.sql" "sanktiot.sql" "sanktiot.clj" "integraatiot.sql" "integraatiot.clj" "urakan_toimenpiteet.sql" "urakan_toimenpiteet.clj" "api_jarjestelmatunnukset.clj" "api_jarjestelmatunnukset.sql" "kustannusarvioidut_tyot.clj" "kustannusarvioidut_tyot.sql" "tieverkko.clj" "tieverkko.sql" "toteutuneet_kustannukset.clj" "toteutuneet_kustannukset.sql" "yhteyshenkilot.sql" "yhteyshenkilot.clj" "urakan_tyotunnit.clj" "urakan_tyotunnit.sql" "organisaatiot.clj" "organisaatiot.sql" "yllapitokohteet.sql" "yllapitokohteet.clj" "tilannekuva.clj" "tilannekuva.sql" "jarjestelman_tila.sql" "jarjestelman_tila.clj" "liitteet.clj" "tarkastukset.clj" "tarkastukset.sql" "liitteet.sql" "siltatarkastukset.sql" "siltatarkastukset.clj" "budjettisuunnittelu.sql" "budjettisuunnittelu.clj" "tienakyma.sql" "tienakyma.clj" "integraatioloki.sql" "integraatioloki.clj" "geometriaaineistot.clj" "toteumat.sql" "toteumat.clj" "paallystys.sql" "hallintayksikot.sql" "suolasakkoraportti.sql" "hallintayksikot.clj" "turvallisuuspoikkeamat.clj" "turvallisuuspoikkeamat.sql" "muokkauslukko.sql" "muokkauslukko.clj" "pohjavesialueet.clj" "pohjavesialueet.sql" "status.sql" "status.clj" "yksikkohintaiset_tyot.sql" "materiaalit.sql" "materiaalit.clj" "yksikkohintaiset_tyot.clj" "tielupa_kyselyt.clj" "tielupa_kyselyt.sql" "paivystajatekstiviestit.clj" "paivystajatekstiviestit.sql" "specql_db.clj" "tietyomaat.clj" "tietyomaat.sql" "laatupoikkeamat.sql" "laatupoikkeamat.clj" "yllapito_muut_toteumat.clj" "valikatselmus.sql" "valikatselmus.clj" "konversio.clj" "hoitoluokat.sql" "hoitoluokat.clj" "tietyoilmoitukset.clj" "tietyoilmoitukset.sql" "../" "./")
+
+ ("/Users/jukkalansineva/h/harja/src/clj/harja/" (23750 35732 747525 294000) "kyselyt/" "palvelin/" "tyokalut/" "shp.clj" "../" "./")
+
+ ("/Users/jukkalansineva/h/harja/src/clj/" (24544 35800 999275 991000) "harja/" "tarkkailija/" "../" "./")
+
+ ("/Users/jukkalansineva/h/harja/src/" (24535 25448 449934 870000) "clj/" "cljs/" "shared-cljc/" "cljs-dev/" "clj-dev/" "js/" "cljc/" "cljs-prod/" "../" "./")
+
+ ("/Users/jukkalansineva/h/" (25144 19491 443697 909000) "harja/" ".harja 2/" "harja-docker/" "harja-jenkins/" "dot-harja.tgz" "infra-ssh-config/" ".harja/" "dot-harja.zip" "harja-ci/" ".DS_Store" "harja-infra/" "../" "./")
+
+ ("/Users/jukkalansineva/" (25174 45970 836082 268000) ".zcompdump-MACXJ425JG5M-5.3" ".azure/" "cookies" ".viminfo" ".bash_history" ".gitconfig" "Downloads/" ".oh-my-zsh/" "lasku_202111031017.sql" ".bash_profile" ".m2/" ".vscode/" "Documents/" ".npm/" "docker-compose.yml" "java_error_in_idea.hprof" ".Trash/" ".emacs~" ".cljs/" "Applications/" "Movies/" ".ssh/" ".cisco/" "_select_lk_id_lk_rivi_lk_lasku_lk_summa_lk_toimenpideinstanssi_l_202111031020.sql" "Public/" "emaksi" ".lein/" ".sqlite_history" ".fsav/" ".bash_sessions/" ".pgadmin/" ".android/" ".emacs.d/" "h/" "google-cloud-sdk/" ".oracle_jre_usage/" "emacsdbkup/" ".lesshst" "Library/" "Desktop/" ".zsh_history" "Postman/" "Pictures/" "projects/" ".psql_history" ".local/" ".zshrc" "bin/" ".wget-hsts" ".CFUserTextEncoding" "VirtualBox VMs/" ".tmux.conf" ".pdfbox.cache" ".DS_Store" ".zcompdump-MACXJ425JG5M-5.7.1" "_select_l_kokonaissumma_l_erapaiva_l_laskun_numero_lk_id_lk_rivi_202111031037.sql" ".vim/" ".anyconnect" "taraxa-node-oneclick/" ".docker/" ".fop/" "Music/" ".config/" ".eclipse/" "../" "./")
+
+ ("/Users/jukkalansineva/.emacs.d/elpa/" (25174 46214 57824 804000) "dash-2.19.1/" "parseclj-1.1.0/" "pkg-info-0.6/" "exec-path-from-shell-1.12/" "epl-0.9/" "spinner-1.7.4/" "clojure-mode-5.14.0/" "magit-3.3.0/" "queue-0.2/" "git-commit-3.3.0/" "cider-1.3.0/" "magit-section-3.3.0/" "archives/" "flycheck-clj-kondo-0.0.3/" "rainbow-delimiters-2.1.5/" "paredit-24/" "ido-completing-read+-4.14/" "clojure-mode-extra-font-locking-5.14.0/" "parseedn-1.1.0/" "flycheck-32/" "memoize-1.1/" "sesman-0.3.4/" "with-editor-3.2.0/" "transient-0.3.7/" "../" "./")
+
+ ("/Users/jukkalansineva/.emacs.d/elpa/flycheck-clj-kondo-0.0.3/" (25174 46214 250565 866000) "flycheck-clj-kondo-pkg.el" "flycheck-clj-kondo-autoloads.el" "flycheck-clj-kondo.el" "flycheck-clj-kondo.elc" "../" "./")
+
+ ("/Users/jukkalansineva/emacsdbkup/customizations/" (25174 41850 248660 118000) "misc.elc" "elisp-editing.el" "navigation.elc" "ui.elc" "setup-js.elc" "setup-js.el" "elisp-editing.elc" "shell-integration.elc" "navigation.el" "editing.el" "setup-clojure.el" "misc.el" "shell-integration.el" "editing.elc" "ui.el" "setup-clojure.elc" "../" "./")
+
+ ("/Users/jukkalansineva/emacsdbkup/" (25174 42616 601637 805000) ".smex-items" "cider-history" "backups/" "themes/" "elpa/" "network-security.data" ".gitignore" ".recentf" "README.md" "init.el" "auto-save-list/" "transient/" "projectile-bookmarks.eld" "customizations/" "eshell/" "ido.last" "init.elc" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
