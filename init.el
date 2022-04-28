@@ -23,7 +23,8 @@
     ido-completing-read+
     magit
     flycheck-clj-kondo
-    ))
+    amx
+    zenburn-theme))
 
 ;; 
 (if (eq system-type 'darwin)
@@ -53,13 +54,17 @@
 (setq mac-command-modifier 'control)
 (setq mac-option-modifier 'meta)
 
+(load-theme 'zenburn t)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   '("20a8ec387dde11cc0190032a9f838edcc647863c824eed9c8e80a4155f8c6037" "0598c6a29e13e7112cfbc2f523e31927ab7dce56ebb2016b567e1eff6dc1fd4f" "9abe2b502db3ed511fea7ab84b62096ba15a3a71cdb106fd989afa179ff8ab8d" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "78e9a3e1c519656654044aeb25acb8bec02579508c145b6db158d2cfad87c44e" default))
  '(package-selected-packages
-   '(flycheck-clj-kondo ido-completing-read+ rainbow-delimiters cider clojure-mode-extra-font-locking clojure-mode paredit exec-path-from-shell magit)))
+   '(cyberpunk-theme solarized-theme monokai-theme spacemacs-theme zenburn-theme flycheck-clj-kondo ido-completing-read+ rainbow-delimiters cider clojure-mode-extra-font-locking clojure-mode paredit exec-path-from-shell magit)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -17,9 +17,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/jukkalansineva/.emacs.d/customizations/"
  "/Users/jukkalansineva/.emacs.d/"
  "/Users/jukkalansineva/emacsdbkup/customizations/"
- "/Users/jukkalansineva/.emacs.d/customizations/"
  "/Users/jukkalansineva/emacsdbkup/"
  "/Users/jukkalansineva/h/harja/src/cljs/harja/views/"
  "/Users/jukkalansineva/h/harja/src/cljs/harja/asiakas/"
@@ -31,23 +31,25 @@
 
 ;; ----- ido-work-file-list -----
 (
- "init.el"
- "elisp-editing.el"
- "clojure.el"
  "config.el"
+ "init.el"
+ "navigation.el"
+ "clojure.el"
+ "setup-clojure.el"
+ "elisp-editing.el"
+ "misc.el"
+ "shell-integration.el"
  "editing.el"
  "raportit.cljs"
- "about.clj"
- "tapahtumat.cljs"
- "kommunikaatio.cljs"
- "yllapitokohteet.clj"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/jukkalansineva/.emacs.d/customizations/" (25174 50856 225015 752000) "clojure.el" ".#config.el" "config.el" "../" "./")
+ ("/Users/jukkalansineva/.emacs.d/customizations/" (25175 51309 616945 330000) "clojure.el" "clojure.el~" "config.el" "config.el~" "../" "./")
 
- ("/Users/jukkalansineva/.emacs.d/" (25174 49246 600355 388000) "elpa/" "init.el" "auto-save-list/" "transient/" "ido.last~" "customizations/" "init.el~" "ido.last" "../" "./")
+ ("/Users/jukkalansineva/" (25175 51475 886206 578000) ".zcompdump-MACXJ425JG5M-5.3" ".azure/" "cookies" ".viminfo" ".bash_history" ".gitconfig" "Downloads/" ".oh-my-zsh/" "lasku_202111031017.sql" ".bash_profile" ".m2/" ".vscode/" "Documents/" ".npm/" "docker-compose.yml" "java_error_in_idea.hprof" ".Trash/" ".emacs~" ".cljs/" "Applications/" "Movies/" ".ssh/" ".cisco/" "_select_lk_id_lk_rivi_lk_lasku_lk_summa_lk_toimenpideinstanssi_l_202111031020.sql" "Public/" "emaksi" ".lein/" ".sqlite_history" ".fsav/" ".bash_sessions/" ".pgadmin/" ".android/" ".emacs.d/" "h/" "google-cloud-sdk/" ".oracle_jre_usage/" "emacsdbkup/" ".lesshst" "Library/" "Desktop/" ".zsh_history" "Postman/" "Pictures/" "projects/" ".psql_history" ".local/" ".zshrc" "bin/" ".wget-hsts" ".CFUserTextEncoding" "VirtualBox VMs/" ".tmux.conf" ".pdfbox.cache" ".DS_Store" ".zcompdump-MACXJ425JG5M-5.7.1" "_select_l_kokonaissumma_l_erapaiva_l_laskun_numero_lk_id_lk_rivi_202111031037.sql" ".vim/" ".anyconnect" "taraxa-node-oneclick/" ".docker/" ".fop/" "Music/" ".config/" ".eclipse/" "../" "./")
+
+ ("/Users/jukkalansineva/.emacs.d/" (25175 51451 374119 836000) ".git/" "elpa/" "init.el" "auto-save-list/" "transient/" "ido.last~" "customizations/" "init.el~" "ido.last" "../" "./")
 
  ("/Users/jukkalansineva/h/harja/src/cljc/" (23750 35732 749698 113000) "harja/" "../" "./")
 
@@ -78,8 +80,6 @@
  ("/Users/jukkalansineva/h/harja/src/" (24535 25448 449934 870000) "clj/" "cljs/" "shared-cljc/" "cljs-dev/" "clj-dev/" "js/" "cljc/" "cljs-prod/" "../" "./")
 
  ("/Users/jukkalansineva/h/" (25144 19491 443697 909000) "harja/" ".harja 2/" "harja-docker/" "harja-jenkins/" "dot-harja.tgz" "infra-ssh-config/" ".harja/" "dot-harja.zip" "harja-ci/" ".DS_Store" "harja-infra/" "../" "./")
-
- ("/Users/jukkalansineva/" (25174 45970 836082 268000) ".zcompdump-MACXJ425JG5M-5.3" ".azure/" "cookies" ".viminfo" ".bash_history" ".gitconfig" "Downloads/" ".oh-my-zsh/" "lasku_202111031017.sql" ".bash_profile" ".m2/" ".vscode/" "Documents/" ".npm/" "docker-compose.yml" "java_error_in_idea.hprof" ".Trash/" ".emacs~" ".cljs/" "Applications/" "Movies/" ".ssh/" ".cisco/" "_select_lk_id_lk_rivi_lk_lasku_lk_summa_lk_toimenpideinstanssi_l_202111031020.sql" "Public/" "emaksi" ".lein/" ".sqlite_history" ".fsav/" ".bash_sessions/" ".pgadmin/" ".android/" ".emacs.d/" "h/" "google-cloud-sdk/" ".oracle_jre_usage/" "emacsdbkup/" ".lesshst" "Library/" "Desktop/" ".zsh_history" "Postman/" "Pictures/" "projects/" ".psql_history" ".local/" ".zshrc" "bin/" ".wget-hsts" ".CFUserTextEncoding" "VirtualBox VMs/" ".tmux.conf" ".pdfbox.cache" ".DS_Store" ".zcompdump-MACXJ425JG5M-5.7.1" "_select_l_kokonaissumma_l_erapaiva_l_laskun_numero_lk_id_lk_rivi_202111031037.sql" ".vim/" ".anyconnect" "taraxa-node-oneclick/" ".docker/" ".fop/" "Music/" ".config/" ".eclipse/" "../" "./")
 
  ("/Users/jukkalansineva/.emacs.d/elpa/" (25174 46214 57824 804000) "dash-2.19.1/" "parseclj-1.1.0/" "pkg-info-0.6/" "exec-path-from-shell-1.12/" "epl-0.9/" "spinner-1.7.4/" "clojure-mode-5.14.0/" "magit-3.3.0/" "queue-0.2/" "git-commit-3.3.0/" "cider-1.3.0/" "magit-section-3.3.0/" "archives/" "flycheck-clj-kondo-0.0.3/" "rainbow-delimiters-2.1.5/" "paredit-24/" "ido-completing-read+-4.14/" "clojure-mode-extra-font-locking-5.14.0/" "parseedn-1.1.0/" "flycheck-32/" "memoize-1.1/" "sesman-0.3.4/" "with-editor-3.2.0/" "transient-0.3.7/" "../" "./")
 

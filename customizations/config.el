@@ -14,11 +14,17 @@
 (add-hook 'lisp-interaction-mode-hook 'turn-on-eldoc-mode)
 (add-hook 'ielm-mode-hook 'turn-on-eldoc-mode)
 ;; yes / no -> y / n
+(global-hl-line-mode 1)
 (fset 'yes-or-no-p 'y-or-n-p)
 (setq create-lockfiles nil)
 (setq inhibit-startup-message t)
 ;; ibuffer
 (global-set-key (kbd "C-x C-b") 'ibuffer)
+
+(amx-mode)
+;;(global-set-key (kbd "M-x") 'amx)
+
+(global-linum-mode)
 
 ;; groupit
 (setq ibuffer-saved-filter-groups 
