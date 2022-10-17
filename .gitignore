@@ -2,3 +2,5 @@ elpa/**/*
 cider-history
 auto-save-list/**/*
 amx-items
+ido.last**
+transient/**
